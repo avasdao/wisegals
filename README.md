@@ -3,18 +3,18 @@
 An elite squad of MEV Script bots powering on-chain contracts running on Nexa, Bitcoin and Bitcoin Cash.
 
 List of current & proposed bot names:
-01. Ada (L)
-00. Edith (S)
-00. Fabiola (M)
-00. Gladys Mae (W) — geo location
-00. Hedy (L) — wireless communications
-00. Judit (P)
-00. Katherine (J)
-00. Lillian (G) — industrial engineering
-00. Marie (C) — advanced _(GPU)_ math & physics
-00. Olivia (M)
-00. Ruth (L)
-00. Simone de (B) — politics
+01. Ada (Lagerfeld)
+00. Edith (Spade)
+00. Fabiola (McQueen)
+00. Gladys Mae (Westwood) — geo location
+00. Hedy (Laurent) — wireless communications
+00. Judit (Prada)
+00. Katherine (Jacobs)
+00. Lillian (Givenchy) — industrial engineering
+00. Marie (Chanel) — advanced _(GPU)_ math & physics
+00. Olivia (Moschino)
+00. Ruth (Lauren)
+00. Simone de (Burberry) — politics
 
 ---
 
