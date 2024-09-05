@@ -1,0 +1,23 @@
+{
+  "name": "wisegals",
+  "version": "24.9.5",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "0.5.3",
+    "nexajs": "24.8.15",
+    "nuxt": "3.12.4",
+    "pinia": "2.2.2"
+  },
+  "devDependencies": {
+    "@kevinmarrec/nuxt-pwa": "0.17.0",
+    "@nuxtjs/i18n": "8.4.0",
+    "@nuxtjs/tailwindcss": "6.12.1"
+  }
+}
