@@ -24,9 +24,9 @@ const init = () => {
         wisegalid.value = 'marie'
         title.value = `Marie Chanel`
         nickname.value = `Marie`
-        specialty.value = `Science`
-        summary.value = `Advanced (GPU) Math & Physics`
-        profile.value = `TBD`
+        specialty.value = `Advanced (GPU) Math & Physics`
+        summary.value = `Offering to generative AI services for professionals.`
+        profile.value = `Marie Curie was the first well-known woman scientest in the modern world and is know as the "mother of modern physics" for here research in radioactivity. She won two Nobel Prizes: for physics (1903) and chemistry (1911).`
         break
     case 'ruth':
         wisegalid.value = 'ruth'
@@ -56,7 +56,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <main class="max-w-5xl mx-auto px-3 py-5 flex flex-col gap-4">
+    <main class="max-w-5xl mx-auto py-5 flex flex-col gap-4">
         <section class="flex flex-col gap-4">
             <h1 class="text-gray-600 text-5xl font-medium">
                 {{title}}

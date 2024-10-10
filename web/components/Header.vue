@@ -40,6 +40,10 @@ const isShowingMenu = ref(false)
             </div>
 
             <div class="hidden lg:flex lg:gap-x-12">
+                <NuxtLink to="/wallet" class="text-xl font-semibold leading-6 text-gray-600">
+                    Wallet
+                </NuxtLink>
+
                 <NuxtLink to="javascript://" class="text-xl font-semibold leading-6 text-gray-600">
                     Docs
                 </NuxtLink>
@@ -50,8 +54,8 @@ const isShowingMenu = ref(false)
             </div>
 
             <div class="hidden lg:flex lg:flex-1 lg:justify-end flex items-center gap-1">
-                <NuxtLink to="/" class="text-xl font-semibold text-gray-600 hover:underline">
-                    Manage My Bots
+                <NuxtLink to="/manage" class="text-xl font-semibold text-gray-600 hover:underline">
+                    Manage My Gals
                 </NuxtLink>
             </div>
         </nav>
@@ -78,6 +82,10 @@ const isShowingMenu = ref(false)
                 <div class="mt-6 flow-root">
                     <div class="-my-6 divide-y divide-gray-500/10">
                         <div class="space-y-2 py-6">
+                            <NuxtLink to="/wallet" @click="isShowingMenu = false" class="-mx-3 block rounded-lg px-3 py-2 text-2xl font-semibold leading-7 text-gray-600 hover:bg-gray-50">
+                                Wallet
+                            </NuxtLink>
+
                             <NuxtLink to="javascript://" @click="isShowingMenu = false" class="-mx-3 block rounded-lg px-3 py-2 text-2xl font-semibold leading-7 text-gray-600 hover:bg-gray-50">
                                 Docs
                             </NuxtLink>
@@ -88,8 +96,8 @@ const isShowingMenu = ref(false)
                         </div>
 
                         <div class="py-6">
-                            <NuxtLink to="/" @click="isShowingMenu = false" class="-mx-3 block rounded-lg px-3 py-2.5 text-2xl font-semibold leading-7 text-gray-600 hover:bg-gray-50">
-                                Manage My Bots
+                            <NuxtLink to="/manage" @click="isShowingMenu = false" class="-mx-3 block rounded-lg px-3 py-2.5 text-2xl font-semibold leading-7 text-gray-600 hover:bg-gray-50">
+                                Manage My Gals
                             </NuxtLink>
                         </div>
                     </div>
