@@ -19,15 +19,28 @@
                 We working hard to make your smart contracts even SMARTER!
             </p>
 
-            <ol class="pl-10 list-decimal leading-6">
-                <li>Automation for UTXO smart contracts on multiple networks, including:
+            <ol class="pl-10 list-decimal leading-8">
+                <li>
+                    Automation for UTXO smart contracts on multiple networks, including:
                     <ul class="pl-8 list-disc">
                         <li>Bitcoin</li>
                         <li>Bitcoin Cash</li>
                         <li>Nexa</li>
                     </ul>
                 </li>
-                <li>Earn passive income as an Auto-bots managers</li>
+
+                <li>
+                    Earn passive income as an Auto-bots managers:
+                    <ol class="pl-8 list-decimal">
+                        <li><NuxtLink to="/marie" class="text-blue-500 hover:underline">
+                            Marie Chanel
+                        </NuxtLink></li>
+
+                        <li><NuxtLink to="/ruth" class="text-blue-500 hover:underline">
+                            Ruth Laurent
+                        </NuxtLink></li>
+                    </ol>
+                </li>
             </ol>
         </section>
     </main>
